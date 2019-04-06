@@ -1,0 +1,115 @@
+body ,a,h1,h2,h3,h4{
+	text-decoration: none;
+	font-weight: normal;
+	  font-family: "YuGothic","Yu Gothic","Meiryo","ヒラギノ角ゴ","sans-serif";
+}
+p {
+    color: #7c8186;
+    font-size: 17px;
+}
+a{
+	color:#58a4ef;
+}
+h4{
+	color:#1d1e1f;
+	font-size:20px;
+}
+.wrapper{
+	margin: 0 auto;
+	width:1200px; 
+}
+.container{
+	width:980px;
+	margin: 0 auto;
+}
+.header-logo {
+    margin-left: 50px;
+}
+.header-logo img{
+	width: 50px;
+	}
+.header-image img{
+		width: 100%;
+}
+.header-wrap {
+     display: flex;
+    -webkit-display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: space-between;
+}
+.header-wrap ul{
+    display: flex;
+    list-style: none;
+}
+.header-wrap li{
+    padding: 0px 16px;
+}
+.contents{
+  display: flex;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.main-content {
+    padding: 7px;    
+    width: 51%;
+}
+.main-content a{
+	text-decoration: underline;
+}
+.sub-content {
+      width: 46%;
+      padding:0 5px;
+   
+}
+.sub1{
+	padding-left: 20px;
+	border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.sub2{
+	padding-left: 20px;
+	border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.sub3{
+	padding-left: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-bottom:40px;
+}
+.sub1 h4,.sub2 h4,.sub3 h4{
+	padding-left: 24px;
+}
+.footer{
+	background-color:#f3f3f3;
+}
+.footer h4{
+	padding-left:37px;
+}
+.footer-content{
+	display: flex;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.footer-left{
+	width:25%;
+}
+.footer-right{
+	width:70%;
+}
+.footer p{
+	text-align: center;
+	padding:40px 0;
+}
+
+
